@@ -14,11 +14,10 @@ class ReviewSerializer(serializers.ModelSerializer):
     class Meta:
         model = Review
         fields = '__all__'
-        read_only_fields = ('id', 'date')
+        read_only_fields = ('id', 'date', 'user')
 
 
 class ReviewWriteSerializer(serializers.ModelSerializer):
     class Meta:
         model = Review
-        fields = '__all__'
-        read_only_fields = ('id', 'date')
+        fields = ('title', 'summary', 'rating', 'company')
