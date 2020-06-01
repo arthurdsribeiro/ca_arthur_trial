@@ -1,4 +1,6 @@
 # Github's boilerplate for .gitignore files in Python projects.
+# VSCode custom files
+.vscode
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
