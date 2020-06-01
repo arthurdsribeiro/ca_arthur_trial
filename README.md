@@ -1,3 +1,5 @@
+![Django CI](https://github.com/arthurdsribeiro/ca_arthur_trial/workflows/Django%20CI/badge.svg)
+
 # Arthur Ribeiro's project of Consumer Affairs trial period.
 
 ca_arthur_trial is a set of REST services to create reviews as a logged in user to custom companies.
