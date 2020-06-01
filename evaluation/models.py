@@ -6,7 +6,9 @@ from django.core.validators import (
 
 
 class Review(models.Model):
-    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    user = models.ForeignKey(
+        User, on_delete=models.CASCADE, related_name='reviews'
+    )
     title = models.CharField(max_length=64)
     summary = models.TextField(max_length=10000)
     rating = models.IntegerField(
