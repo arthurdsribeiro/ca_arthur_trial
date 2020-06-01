@@ -36,7 +36,7 @@ After installing the dependencies and setting up the database and super user, ru
 
 `python manage.py runserver`
 
-You'll be able to login to the admin website by navigating into `http://localhost:8000/admin/`
+You'll be able to login to the admin website by navigating into `http://127.0.0.1:8000/admin/`
 
 ## Running unit tests
 
@@ -48,6 +48,12 @@ We have unit tests for all the REST services and for serialzers and models that 
 
 - `coverage run --source='./evaluation' --omit='*/apps.py' manage.py test`
 - `coverage report`
+
+## API documentation
+
+Run the application and then navigate to the following URL:
+
+`http://127.0.0.1:8000/docs/`
 
 ## Contributing
 
