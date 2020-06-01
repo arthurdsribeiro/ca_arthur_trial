@@ -44,6 +44,11 @@ We have unit tests for all the REST services and for serialzers and models that 
 
 `python manage.py test`
 
+## Checking code coverage
+
+- `coverage run --source='./evaluation' --omit='*/apps.py' manage.py test`
+- `coverage report`
+
 ## Contributing
 
 Since this is a project to be evaluated by Consumer Affairs we're not accepting pull requests or editions to the current codebase.
